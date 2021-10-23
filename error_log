@@ -1,0 +1,1 @@
+[13-Aug-2021 11:41:30 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 117444608 bytes) in /home/vgvm01l6qx04/wetfire/app/Http/Controllers/Front/PaymentController.php on line 360

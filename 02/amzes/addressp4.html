@@ -1,0 +1,956 @@
+<div class="a-section a-spacing-medium a-text-left address-narrow-container-desktop">
+
+<div class="a-section a-spacing-medium"><div class="a-subheader a-breadcrumb a-spacing-small">
+<ul class="a-nostyle a-horizontal">
+            <li>
+                <span class="a-list-item">
+<a class="a-spacing-large a-link-normal" href="/gp/css/homepage.html?ref=ya_address_book_add_to_your_account_breadcrumb">                        <span> Mi cuenta </span>
+</a>                </span>
+        </li>
+        <li class="a-breadcrumb-divider">›</li>
+
+            <li>
+                <span class="a-list-item">
+<a class="a-spacing-large a-link-normal" href="/a/addresses?ref=ya_address_book_add_to_address_book_breadcrumb">                        <span> Mis direcciones </span>
+</a>                </span>
+        </li>
+        <li class="a-breadcrumb-divider">›</li>
+
+            <li>
+                <span class="a-list-item">
+                    <span class="a-color-state"> Nueva dirección </span>
+                </span>
+            </li>
+</ul>
+</div>
+</div>
+<div class="a-section">    <input type="hidden" id="address-ui-widgets-reload-url" value="/a/addresses/reload-add-form">
+<h2>Añadir una nueva dirección </h2>
+
+
+
+    <form id="address-ui-address-form" action="/a/addresses/add?ref=ya_address_book_add_post" method="POST">
+
+<input type="hidden" name="csrfToken" value="n0rj3MtItuM8wj2Fj2Fj2FDWKEj3j2BY4Ssj3D"><input type="hidden" name="addressID" id="addressID">      <span id="address-ui-widget-content">
+        <div id="address-ui-widgets-enterAddressFormContainer" class="a-section"><div class="a-row"><div class="a-input-text-group a-spacing-medium a-spacing-top-medium"><div class="a-section a-spacing-none adddress-ui-widgets-form-field-label-container address-ui-widgets-desktop-form-label"><div class="a-section a-spacing-none aok-inline-block"><label for="address-ui-widgets-countryCode" class="a-form-label address-ui-widgets-desktop-form-field-full-width a-nowrap"><span class="a-text-bold">País/región</span></label></div></div><div class="a-section a-spacing-large adddress-ui-widgets-form-field-container address-ui-widgets-desktop-form-field"><span class="a-dropdown-container"><select name="address-ui-widgets-countryCode" autocomplete="off" id="address-ui-widgets-countryCode-dropdown-nativeId" tabindex="0" class="a-native-dropdown a-spacing-none"><option value="AF">Afganistán</option><option value="AL">Albania</option><option value="DE">Alemania</option><option value="AD">Andorra</option><option value="AO">Angola</option><option value="AI">Anguilla</option><option value="AQ">Antártida</option><option value="AG">Antigua y Barbuda</option><option value="AN">Antillas Neerlandesas</option><option value="SA">Arabia Saudita</option><option value="DZ">Argelia</option><option value="AR">Argentina</option><option value="AM">Armenia</option><option value="AW">Aruba</option><option value="AU">Australia</option><option value="AT">Austria</option><option value="AZ">Azerbaiyán</option><option value="BS">Bahamas</option><option value="BH">Bahréin</option><option value="BD">Bangladesh</option><option value="BB">Barbados</option><option value="BY">Belarús, República de</option><option value="BE">Bélgica</option><option value="BZ">Belice</option><option value="BJ">Benín</option><option value="BM">Bermudas</option><option value="BO">Bolivia</option><option value="BQ">Bonaire, San Eustaquio y Saba</option><option value="BA">Bosnia y Herzegovina</option><option value="BW">Botsuana</option><option value="BR">Brasil</option><option value="BN">Brunei Darussalam</option><option value="BG">Bulgaria</option><option value="BF">Burkina Faso</option><option value="BI">Burundi</option><option value="BT">Bután</option><option value="CV">Cabo Verde</option><option value="KH">Camboya</option><option value="CM">Camerún</option><option value="CA">Canadá</option><option value="TD">Chad</option><option value="CL">Chile</option><option value="CN">China</option><option value="CY">Chipre</option><option value="VA">Ciudad del Vaticano</option><option value="CO">Colombia</option><option value="KM">Comoras</option><option value="CG">Congo</option><option value="CD">Congo, República Democrática del</option><option value="KR">Corea, República de</option><option value="CI">Costa de Marfil </option><option value="CR">Costa Rica</option><option value="HR">Croacia</option><option value="CW">Curaçao</option><option value="DK">Dinamarca</option><option value="DM">Dominica</option><option value="EC">Ecuador</option><option value="EG">Egipto</option><option value="SV">El Salvador</option><option value="AE">Emiratos Árabes Unidos</option><option value="ER">Eritrea</option><option value="SK">Eslovaquia</option><option value="SI">Eslovenia</option><option value="ES" selected="">España</option><option value="US">Estados Unidos</option><option value="EE">Estonia</option><option value="ET">Etiopía</option><option value="RU">Federación de Rusia</option><option value="PH">Filipinas</option><option value="FI">Finlandia</option><option value="FJ">Fiyi</option><option value="FR">Francia</option><option value="GA">Gabón</option><option value="GM">Gambia</option><option value="GE">Georgia</option><option value="GH">Ghana</option><option value="GI">Gibraltar</option><option value="GD">Granada</option><option value="GR">Grecia</option><option value="GL">Groenlandia</option><option value="GP">Guadalupe</option><option value="GU">Guam</option><option value="GT">Guatemala</option><option value="GF">Guayana Francesa</option><option value="GG">Guernesey</option><option value="GN">Guinea</option><option value="GW">Guinea-Bissau</option><option value="GQ">Guinea Ecuatorial</option><option value="GY">Guyana</option><option value="HT">Haití</option><option value="HN">Honduras</option><option value="HK">Hong Kong</option><option value="HU">Hungría</option><option value="IN">India</option><option value="ID">Indonesia</option><option value="IQ">Irak</option><option value="IE">Irlanda</option><option value="BV">Isla Bouvet</option><option value="IM">Isla de Man</option><option value="CX">Isla de Navidad</option><option value="MF">Isla de San Martín</option><option value="IS">Islandia</option><option value="NF">Isla Norfolk</option><option value="KY">Islas Caimán</option><option value="CC">Islas Cocos (Keeling)</option><option value="CK">Islas Cook</option><option value="AX">Islas de Åland</option><option value="FO">Islas Feroe</option><option value="GS">Islas Georgias del Sur y Sándwich del Sur</option><option value="HM">Islas Heard y McDonald</option><option value="FK">Islas Malvinas (Falkland)</option><option value="MP">Islas Marianas del Norte</option><option value="MH">Islas Marshall</option><option value="SB">Islas Salomón</option><option value="TC">Islas Turcas y Caicos</option><option value="UM">Islas Ultramarinas menores de Estados Unidos</option><option value="VG">Islas Vírgenes Británicas</option><option value="VI">Islas Vírgenes de los Estados Unidos</option><option value="IL">Israel</option><option value="IT">Italia</option><option value="JM">Jamaica</option><option value="JP">Japón</option><option value="JE">Jersey</option><option value="JO">Jordania</option><option value="KZ">Kazajstán</option><option value="KE">Kenia</option><option value="KG">Kirguistán</option><option value="KI">Kiribati</option><option value="XK">Kosovo</option><option value="KW">Kuwait</option><option value="LS">Lesoto</option><option value="LV">Letonia</option><option value="LB">Líbano</option><option value="LR">Liberia</option><option value="LY">Libia</option><option value="LI">Liechtenstein</option><option value="LT">Lituania</option><option value="LU">Luxemburgo</option><option value="MO">Macao</option><option value="MK">Macedonia, ex República Yugoslava de</option><option value="MG">Madagascar</option><option value="MY">Malasia</option><option value="MW">Malawi</option><option value="MV">Maldivas</option><option value="ML">Malí</option><option value="MT">Malta</option><option value="MA">Marruecos</option><option value="MQ">Martinica</option><option value="MU">Mauricio</option><option value="MR">Mauritania</option><option value="YT">Mayotte</option><option value="MX">México</option><option value="FM">Micronesia, Estados Federados de</option><option value="MD">Moldavia, República de</option><option value="MC">Mónaco</option><option value="MN">Mongolia</option><option value="ME">Montenegro</option><option value="MS">Montserrat</option><option value="MZ">Mozambique</option><option value="MM">Myanmar</option><option value="NA">Namibia</option><option value="NR">Nauru</option><option value="NP">Nepal</option><option value="NI">Nicaragua</option><option value="NE">Níger</option><option value="NG">Nigeria</option><option value="NU">Niue</option><option value="NO">Noruega</option><option value="NC">Nueva Caledonia</option><option value="NZ">Nueva Zelandia</option><option value="OM">Omán</option><option value="NL">Países Bajos</option><option value="PK">Pakistán</option><option value="PW">Palaos</option><option value="PA">Panamá</option><option value="PG">Papúa Nueva Guinea</option><option value="PY">Paraguay</option><option value="PE">Perú</option><option value="PN">Pitcairn</option><option value="PF">Polinesia Francesa</option><option value="PL">Polonia</option><option value="PT">Portugal</option><option value="PR">Puerto Rico</option><option value="QA">Qatar</option><option value="RW">Randa</option><option value="GB">Reino Unido</option><option value="CF">República Centroafricana</option><option value="CZ">República Checa</option><option value="LA">República Democrática Popular Lao</option><option value="DO">República Dominicana</option><option value="RE">Reunión</option><option value="RO">Rumania</option><option value="EH">Sahara Occidental</option><option value="SJ">Salvar y Han Mayen</option><option value="WS">Samoa</option><option value="AS">Samoa Americana</option><option value="BL">San Bartolomé</option><option value="KN">San Cristóbal y Nieves</option><option value="SM">San Marino</option><option value="PM">San Pedro y Miquelón</option><option value="SH">Santa Elena, Ascensión y Tristan de Cuña</option><option value="LC">Santa Lucía</option><option value="SX">Sant Maarten</option><option value="ST">Santo Tomé y Príncipe</option><option value="VC">San Vicente y las Granadinas</option><option value="SN">Senegal</option><option value="RS">Serbia, República de</option><option value="SC">Seychelles</option><option value="SL">Sierra Leona</option><option value="SG">Singapur</option><option value="SO">Somalia</option><option value="LK">Sri Lanka</option><option value="SZ">Suazilandia</option><option value="ZA">Sudáfrica</option><option value="SE">Suecia</option><option value="CH">Suiza</option><option value="SR">Surinam</option><option value="TH">Tailandia</option><option value="TJ">Tailandia</option><option value="TW">Taiwán</option><option value="TZ">Tanzania, República Unida de</option><option value="IO">Territorio británico del océano Índico</option><option value="PS">Territorios Palestinos</option><option value="TF">Tierras australes y antárticas francesas</option><option value="TL">Timor-leste</option><option value="TG">Togo</option><option value="TK">Tokelau</option><option value="TO">Tonga</option><option value="TT">Trinidad y Tobago</option><option value="TN">Túnez</option><option value="TM">Turkmenistán</option><option value="TR">Turquía</option><option value="TV">Tuvalu</option><option value="UA">Ucrania</option><option value="UG">Uganda</option><option value="UY">Uruguay</option><option value="UZ">Uzbekistán</option><option value="VU">Vanuatu</option><option value="VE">Venezuela</option><option value="VN">Vietnam </option><option value="WF">Wallis y Futuna</option><option value="YE">Yemen</option><option value="DJ">Yibuti</option><option value="ZM">Zambia</option><option value="ZW">Zimbabue</option></select><span tabindex="-1" id="address-ui-widgets-countryCode" data-a-class="address-ui-widgets-desktop-form-field-full-width" class="a-button a-button-dropdown a-spacing-none address-ui-widgets-desktop-form-field-full-width" aria-hidden="true" style="min-width: 0.257143%;"><span class="a-button-inner"><span class="a-button-text a-declarative" data-action="a-dropdown-button" role="button" aria-hidden="true"><span class="a-dropdown-prompt">España</span></span><i class="a-icon a-icon-dropdown"></i></span></span></span><div class="a-section a-spacing-none a-spacing-top-micro address-ui-widgets-inline-error-alert"><div id="address-ui-widgets-addr-form-switch-alert-box" class="a-box a-alert-inline a-alert-inline-error aok-hidden" aria-live="assertive" role="alert"><div class="a-box-inner a-alert-container"><i class="a-icon a-icon-alert"></i><div class="a-alert-content"><div class="a-section">No es posible cambiar el país. Inténtalo nuevamente.</div></div></div></div></div></div><div class="a-section a-spacing-none adddress-ui-widgets-form-field-label-container address-ui-widgets-desktop-form-label"><div class="a-section a-spacing-none aok-inline-block"><label for="address-ui-widgets-enterAddressFullName" class="a-form-label address-ui-widgets-desktop-form-field-full-width a-nowrap"><span class="a-text-bold">Nombre y apellidos</span></label></div></div><div class="a-section a-spacing-base adddress-ui-widgets-form-field-container address-ui-widgets-desktop-form-field"><input type="text" maxlength="50" id="address-ui-widgets-enterAddressFullName" name="address-ui-widgets-enterAddressFullName" class="a-input-text address-ui-widgets-desktop-form-field-full-width"></div><div class="a-section a-spacing-none adddress-ui-widgets-form-field-label-container address-ui-widgets-desktop-form-label"><div class="a-section a-spacing-none aok-inline-block"><label for="address-ui-widgets-enterAddressLine1" class="a-form-label address-ui-widgets-desktop-form-field-full-width a-nowrap"><span class="a-text-bold">Dirección postal</span></label></div></div><div class="a-section a-spacing-small adddress-ui-widgets-form-field-container address-ui-widgets-desktop-form-field"><input type="text" maxlength="60" id="address-ui-widgets-enterAddressLine1" placeholder="Calle y número, apartado de correos" name="address-ui-widgets-enterAddressLine1" class="a-input-text address-ui-widgets-desktop-form-field-full-width"></div><div class="a-section a-spacing-none adddress-ui-widgets-form-field-label-container address-ui-widgets-desktop-form-label"></div><div class="a-section a-spacing-base adddress-ui-widgets-form-field-container address-ui-widgets-desktop-form-field"><input type="text" maxlength="60" id="address-ui-widgets-enterAddressLine2" placeholder="Apartamento, unidad, edificio, piso, etc." name="address-ui-widgets-enterAddressLine2" class="a-input-text address-ui-widgets-desktop-form-field-full-width"></div><div class="a-section a-spacing-none adddress-ui-widgets-form-field-label-container address-ui-widgets-desktop-form-label"><div class="a-section a-spacing-none aok-inline-block"><label for="address-ui-widgets-enterAddressCity" class="a-form-label address-ui-widgets-desktop-form-field-full-width a-nowrap"><span class="a-text-bold">Ciudad</span></label></div></div><div class="a-section a-spacing-base adddress-ui-widgets-form-field-container address-ui-widgets-desktop-form-field"><input type="text" maxlength="50" id="address-ui-widgets-enterAddressCity" name="address-ui-widgets-enterAddressCity" class="a-input-text address-ui-widgets-desktop-form-field-full-width"><div class="a-section a-spacing-none a-spacing-top-micro address-ui-widgets-inline-error-alert"><div id="address-ui-widgets-inline-city-error" class="a-box a-alert-inline a-alert-inline-error aok-hidden" aria-live="assertive" role="alert"><div class="a-box-inner a-alert-container"><i class="a-icon a-icon-alert"></i><div class="a-alert-content"><div class="a-section">Introduce una ciudad.</div></div></div></div></div></div><div class="a-section a-spacing-none adddress-ui-widgets-form-field-label-container address-ui-widgets-desktop-form-label"><div class="a-section a-spacing-none aok-inline-block"><label for="address-ui-widgets-enterAddressStateOrRegion" class="a-form-label address-ui-widgets-desktop-form-field-full-width a-nowrap"><span class="a-text-bold">Provincia/Región</span></label></div></div><div class="a-section a-spacing-base adddress-ui-widgets-form-field-container address-ui-widgets-desktop-form-field"><input type="text" maxlength="50" id="address-ui-widgets-enterAddressStateOrRegion" name="address-ui-widgets-enterAddressStateOrRegion" class="a-input-text address-ui-widgets-desktop-form-field-full-width"><div class="a-section a-spacing-none a-spacing-top-micro address-ui-widgets-inline-error-alert"><div id="address-ui-widgets-inline-state-or-region-error" class="a-box a-alert-inline a-alert-inline-error aok-hidden" aria-live="assertive" role="alert"><div class="a-box-inner a-alert-container"><i class="a-icon a-icon-alert"></i><div class="a-alert-content"><div class="a-section">Introduce un estado, una región o una provincia.</div></div></div></div></div></div><div class="a-section a-spacing-none adddress-ui-widgets-form-field-label-container address-ui-widgets-desktop-form-label"><div class="a-section a-spacing-none aok-inline-block"><label for="address-ui-widgets-enterAddressPostalCode" class="a-form-label address-ui-widgets-desktop-form-field-full-width a-nowrap"><span class="a-text-bold">Código Postal</span></label></div></div><div class="a-section a-spacing-base adddress-ui-widgets-form-field-container address-ui-widgets-desktop-form-field"><input type="text" maxlength="20" id="address-ui-widgets-enterAddressPostalCode" name="address-ui-widgets-enterAddressPostalCode" class="a-input-text address-ui-widgets-desktop-form-field-full-width"></div><div class="a-section a-spacing-none adddress-ui-widgets-form-field-label-container address-ui-widgets-desktop-form-label"><div class="a-section a-spacing-none aok-inline-block"><label for="address-ui-widgets-enterAddressPhoneNumber" class="a-form-label address-ui-widgets-desktop-form-field-full-width a-nowrap"><span class="a-text-bold">Número de teléfono</span></label></div></div><div class="a-section a-spacing-base adddress-ui-widgets-form-field-container address-ui-widgets-desktop-form-field"><input type="text" maxlength="20" id="address-ui-widgets-enterAddressPhoneNumber" name="address-ui-widgets-enterAddressPhoneNumber" class="a-input-text address-ui-widgets-desktop-form-field-full-width"><div class="a-section a-spacing-none a-spacing-top-micro"><span class="a-size-mini">Puede utilizarse para ayudar la entrega</span></div></div><div class="a-section a-spacing-none adddress-ui-widgets-form-field-label-container address-ui-widgets-desktop-form-label"><div class="a-section a-spacing-none aok-inline-block"><label for="address-ui-widgets-taxId" class="a-form-label address-ui-widgets-desktop-form-field-full-width a-nowrap"><span class="a-text-bold">NIF (solo para Canarias, Ceuta y Melilla)</span></label></div><div class="a-section a-spacing-none address-ui-widgets-desktop-form-popover-trigger aok-inline-block"><span class="a-declarative" data-action="a-popover" data-a-popover="{&quot;header&quot;:&quot;Más información&quot;,&quot;inlineContent&quot;:&quot;Proporciona el NIF (9 caracteres) del destinatario del pedido para realizar el despacho de aduana necesario para la entrega.&quot;,&quot;position&quot;:&quot;triggerRight&quot;,&quot;closeButton&quot;:false}"><a href="javascript:void(0)" class="a-popover-trigger a-declarative"><span class="a-size-mini">Más información</span><i class="a-icon a-icon-popover"></i></a></span></div></div><div class="a-section a-spacing-base adddress-ui-widgets-form-field-container address-ui-widgets-desktop-form-field"><input type="text" maxlength="50" id="address-ui-widgets-taxId" name="address-ui-widgets-taxId" class="a-input-text address-ui-widgets-desktop-form-field-full-width"><div class="a-section a-spacing-none a-spacing-top-micro address-ui-widgets-inline-error-alert"><div id="address-ui-widgets-addr-form-tax-id-inline-alert" class="a-box a-alert-inline a-alert-inline-error aok-hidden" aria-live="assertive" role="alert"><div class="a-box-inner a-alert-container"><i class="a-icon a-icon-alert"></i><div class="a-alert-content"><div class="a-section">Por favor introduzca un Número de Identidad de 9 dígitos.</div></div></div></div></div></div></div></div><input type="hidden" name="address-ui-widgets-previous-address-form-state-token" value="eyJ6aXAiOiJERUYiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiQTI1NktXIn0.bzIxjPZcROuCAfkSzR1fIFgdiAiXNvxmFDRnbf8-aRFvyLJeEicv2A.hvBPM_ZxRHVbKtCS.mvQ9OHmLOXa55K0hd9ZnhG9Dz_covgGOX_MNf2X_h4EeB3PQpWk5HIZ97FZ4HvKHOOjzpdtwIQEwHE-GBlOrBUxBynYZ_dBLty_2Q8NviHQw25lOnp5j_sK3NPsEuMX5xb_BdlpcQvIVrDYYut_KXXfz8AvoS-r4PFArpGcx1Fh_DfsYb56TkEiq4sMTVXeHm3qL_2jzN5bFFRunvjp8IMqdv50bwwKDaMJTIGTNdBlJZn2eWVVRIjCwMmUTpqqdFe3WQY-nEh-vdYOArnlLX4BtKch8VOoWrFbtarEZD7Ah0dBWR2aCjixNr0APV81M8o3Q9X67iyWq_WhYXg.gYuO_QUr7spNV5SugAJ1qw"><div class="a-section"><div class="a-section a-spacing-base"><h3 id="address-ui-widgets-addr-details-main-heading" class="aok-float-left a-text-bold">Agregar instrucciones de entrega</h3><span class="a-letter-space"></span></div><div class="a-section a-spacing-none adddress-ui-widgets-form-field-label-container address-ui-widgets-desktop-form-label"><div class="a-section a-spacing-none aok-inline-block"><label for="address-ui-widgets-addr-details-business-hours-expander-heading-text" class="a-form-label address-ui-widgets-desktop-form-field-full-width a-nowrap"><span class="a-text-bold">Indica tus preferencias de entrega para cada dirección de envío</span></label></div></div><div class="a-section a-spacing-base adddress-ui-widgets-form-field-container address-ui-widgets-desktop-form-field"><span class="a-dropdown-container"><select name="address-ui-widgets-addr-details-business-hours" autocomplete="off" tabindex="0" class="a-native-dropdown"><option value="OTH" selected="">Elige una de las opciones</option><option value="BOTH">Entregas cualquier día de la semana (de lunes a domingo)</option><option value="NONE">No quiero entregas los fines de semana</option></select><span tabindex="-1" id="address-ui-widgets-addr-details-business-hours" data-a-class="address-ui-widgets-desktop-form-field-full-width" class="a-button a-button-dropdown address-ui-widgets-desktop-form-field-full-width" aria-hidden="true" style="min-width: 0%;"><span class="a-button-inner"><span class="a-button-text a-declarative" data-action="a-dropdown-button" role="button" aria-hidden="true"><span class="a-dropdown-prompt">Elige una de las opciones</span></span><i class="a-icon a-icon-dropdown"></i></span></span></span><script type="a-state" data-a-state="{&quot;key&quot;:&quot;businessHoursDropdownDefault&quot;}">{"businessHoursDropdownDefaultValue":"OTH"}</script></div></div><span class="a-button a-spacing-top-large a-button-primary" id="a-autoid-0"><span class="a-button-inner"><input class="a-button-input" type="submit" aria-labelledby="a-autoid-0-announce"><span class="a-button-text" aria-hidden="true" id="a-autoid-0-announce">Añadir dirección</span></span></span><input type="hidden" name="address-ui-widgets-addressFormButtonText" value="save"><input type="hidden" name="address-ui-widgets-addressFormHideHeading" value="true"><input type="hidden" name="address-ui-widgets-addressFormHideSubmitButton" value="false"><input type="hidden" name="address-ui-widgets-enableImportContact" value="false"><input type="hidden" name="address-ui-widgets-enableAddressDetails" value="true"><input type="hidden" name="address-ui-widgets-returnLegacyAddressID" value="false"><input type="hidden" name="address-ui-widgets-enableEmailAddress" value="false"><input type="hidden" name="address-ui-widgets-enableAddressTips" value="true"><input type="hidden" name="address-ui-widgets-locale"><script type="a-state" data-a-state="{&quot;key&quot;:&quot;identity-address-ux-ajax-data&quot;}">{"identity-address-ux-ajax-auth-token":"eyJ6aXAiOiJERUYiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiQTI1NktXIn0.OJh7NXGS-O5uVkW0B8YGFI0A5jDoOLzjSi2qHYc5yoBMQO1AesHU9w.hOD7SeMB3AdbrIhz.NtChwLh5UqblXlOXCSr8jr9895XdmbctlhK79O1PS7651JyJWvPFQQLtHPeI7zNKfpFZ5USh5bYsUeVuCDUtrPV8lPjLPlUb5YT9CAqdTSlLchSLMpqUakLUgSFjXp4T8Dy-jk377Fvdvj0YUc916nme5CJelCbrQ5fN0e9r5Hp59BoD0vuC4w8otAsfadomZxSHB3FQIPXJpJz5PktQ70ZM1Nkxff2XdjJCl9wmScwCVqlr-gjH6Xd4mnnQEKOvgtAkyXmHKO4z589BqKH3ihVspSQCeBOwCTVILXDKKPvAfLtHSSxT5ByAxwTSHosRF8Dob-hyNO0bOkRVEnnXnAxL57MwZamj7TCyN93Crj3G_d1ptcW0x-eXQ8rWa5FhtNUz8ThP6pcP7RI91Bxhr48NLNdPz5nF7EufZIQVjLz-GfZzkSnQadX-55mWw22AV_KwF3z2_-jas15Nq6QI9siXZciAQb5-EpsY_Gdtyo8e01G3-XS2Ib-KcVPvg9_V95KPbiJZRr2HnSwQfW9T_KbeQG3ARWPs8rMPXJ90xErlGDvgxHUgkrb1CXtfxFNTcnsDYHxxdtFaWl7ibeZrM5JERa9972ClkXnMGi_DHq15gwjBksRjEBTcuI_KbQ2f16_Phaa4o_j2nRu7epqsH3-3fBESTGjkVgKk8jXKb7cGn-csuOUoDwylECR6RstsYqEk8-B0lWozGXZfm6WxCu1djw9G2Xh7RfjWU7kdXFzudWCltnsSws-15nSxTJM.UpCWSUsENQ-loJ9-UlNShg","identity-address-ux-ajax-domain":"www.amazon.es"}</script><script type="a-state" data-a-state="{&quot;key&quot;:&quot;address-ui-widgets-from-view-state&quot;}">{"isEnabled":true}</script><script type="a-state" data-a-state="{&quot;key&quot;:&quot;address-ui-widgets-form-client-side-validations&quot;}">{"address-ui-widgets-taxId":{"formatRegex":"([0-9]{8}[A-Z]|[A-Z][0-9]{7}[0-9A-Z])"}}</script></div><style>.address-ui-widgets-desktop-form-field-full-width {
+    width: 100%;
+}
+
+.address-ui-widgets-desktop-form-label {
+    min-width: 150px;
+}
+
+.address-ui-widgets-desktop-form-field {
+    min-width: 150px;
+}
+
+.address-ui-widgets-desktop-form-popover-trigger {
+    margin-left: 5px;
+}
+
+.address-ui-widgets-desktop-form-popover-trigger {
+    margin-left: 5px;
+}
+
+.address-ui-widgets-field-container-fixed-height {
+    height:31px;
+}
+
+.address-ui-widgets-input-text-box-warning-state {
+    box-shadow: 0 0 0 4px #fffae7 inset !important;
+}
+</style><script>P.when("A", "a-alert", "ready").execute(function(A, auiAlert) {
+
+    var $ = A.$;
+
+    A.state.parse();
+    var validationRules = A.state('address-ui-widgets-form-client-side-validations');
+
+    var formContainer = $("#address-ui-widgets-enterAddressFormContainer");
+    var taxIdField;
+     if (typeof formContainer !== undefined) {
+         taxIdField = formContainer.find("input[name='address-ui-widgets-taxId']");
+     }
+
+    var taxIdInlineAlert = auiAlert("#address-ui-widgets-addr-form-tax-id-inline-alert");
+
+    function validateTaxIdValue() {
+        var value = taxIdField.val();
+
+        var taxIdRules = validationRules["address-ui-widgets-taxId"];
+        var regex;
+        if (typeof taxIdRules !== undefined) {
+            regex = taxIdRules["formatRegex"];
+        }
+
+        if (typeof regex !== undefined && value !== "") {
+            if (value.match(new RegExp(regex))) {
+                taxIdInlineAlert.hide();
+            } else {
+                taxIdInlineAlert.show();
+            }
+        }
+    }
+
+    if (typeof validationRules !== undefined && typeof taxIdField !== undefined && typeof taxIdInlineAlert !== undefined) {
+        taxIdField.change(validateTaxIdValue);
+    }
+
+});
+P.when('A', 'a-dropdown', 'a-alert', 'ready').execute(function(A, dropdown, auiAlert) {
+
+    var $ = A.$;
+    var countryDropdown = dropdown.getSelect('[name="address-ui-widgets-countryCode"]');
+
+    A.state.parse();
+    var ajaxToken = A.state('identity-address-ux-ajax-data')['identity-address-ux-ajax-auth-token'];
+    var ajaxDomain = A.state('identity-address-ux-ajax-data')['identity-address-ux-ajax-domain'];
+    var ajaxUrlPrefix = (ajaxDomain) ? window.location.protocol + "//" + ajaxDomain : "";
+
+    function incrementCounter(counterName) {
+        if (window.ue && window.ue.count) {
+            window.ue.count(counterName, (window.ue.count(counterName) || 0) + 1);
+        }
+    }
+
+    function setErrorState(countryDropdownValue) {
+        auiAlert("#address-ui-widgets-addr-form-switch-alert-box").show();
+        incrementCounter("AddressFormReloadFailure");
+        dropdown.getSelect('[name="address-ui-widgets-countryCode"]').val(countryDropdownValue);
+    }
+    
+    function getDropdownDefaultValue(modelName, key) {
+        var defaultValue = 'OTH';
+	    var defaultValueMap = A.state(modelName);
+	    if (defaultValueMap) {
+	    	   var defaultValueFromMap = defaultValueMap[key];
+	    	   if (defaultValueFromMap) {
+	    		   defaultValue = defaultValueFromMap;
+	    	   }
+	    }
+	    return defaultValue;
+    }
+    
+    function getBusinessHoursDropdownDefaultValue() {
+    	    return getDropdownDefaultValue('businessHoursDropdownDefault', 'businessHoursDropdownDefaultValue');
+    }
+    
+    function getAddressTypeDropdownDefaultValue() {
+	    return getDropdownDefaultValue('addressTypeDropdownDefault', 'addressTypeDropdownDefaultValue');
+    }
+
+    //Used to prevent blank dropdown on ajax form reload on country switch
+    function resetDropdownOnAjaxRequest() {
+        if(dropdown.getSelect('[name="address-ui-widgets-addr-details-address-type"]') != null) {
+            dropdown.getSelect('[name="address-ui-widgets-addr-details-address-type"]').val(getAddressTypeDropdownDefaultValue());
+        }
+        if(dropdown.getSelect('[name="address-ui-widgets-addr-details-business-hours"]') != null) {
+            dropdown.getSelect('[name="address-ui-widgets-addr-details-business-hours"]').val(getBusinessHoursDropdownDefaultValue());
+        }
+    }
+
+    /*
+     This JS is emitted each time a new address form is rendered. The country dropdown event handler
+     gets registered the first time the address and this check makes sure
+     that this happens just once.
+     */
+    if (A.isListening('a:dropdown:selected:address-ui-widgets-countryCode')) {
+        return;
+    }
+
+    if (countryDropdown !== undefined && countryDropdown !== null) {
+        var selectedCountry = countryDropdown.val();
+
+        A.on('a:dropdown:selected:address-ui-widgets-countryCode', function (data) {
+            incrementCounter("AddressFormCountryDropdownChange");
+            var country = data.value;
+
+            // TODO Replace options with JWT
+            var request = {
+                operation: "AddressFormCountrySwitch",
+                data: {
+                    "address-ui-widgets-countryCode": country,
+                    "address-ui-widgets-addressFormButtonText": $("input[name='address-ui-widgets-addressFormButtonText']").val(),
+                    "address-ui-widgets-addressFormHideHeading": $("input[name='address-ui-widgets-addressFormHideHeading']").val(),
+                    "address-ui-widgets-enableImportContact": $("input[name='address-ui-widgets-enableImportContact']").val(),
+                    "previous-value-address-ui-widgets-countryCode": $("input[name='previous-value-address-ui-widgets-countryCode']").val(),
+                    "address-ui-widgets-enableAddressDetails": $("input[name='address-ui-widgets-enableAddressDetails']").val(),
+                    "address-ui-widgets-enableEmailAddress": $("input[name='address-ui-widgets-enableEmailAddress']").val(),
+                    "address-ui-widgets-enableAddressTips": $("input[name='address-ui-widgets-enableAddressTips']").val(),
+                    "address-ui-widgets-returnLegacyAddressID": $("input[name='address-ui-widgets-returnLegacyAddressID']").val(),
+                    "address-ui-widgets-addressFormHideSubmitButton": $("input[name='address-ui-widgets-addressFormHideSubmitButton']").val(),
+                    "address-ui-widgets-previous-address-form-state": $("input[name='address-ui-widgets-previous-address-form-state']").val(),
+                    "address-ui-widgets-previous-address-form-state-token": $("input[name='address-ui-widgets-previous-address-form-state-token").val()
+                },
+                ajaxToken: ajaxToken
+            }
+
+            var originalAddressId = $("input[name='address-ui-widgets-original-address-id']");
+            if (originalAddressId !== undefined && originalAddressId !== null) {
+                request.data["address-ui-widgets-original-address-id"] = originalAddressId.val();
+            }
+
+
+            A.post(ajaxUrlPrefix + "/a/addresses/ajax/widgets", {
+                contextType: "application/json",
+                accepts: "text/html;charset=UTF-8",
+                withCredentials: true,
+                params: {data: JSON.stringify(request)},
+                success: function (result) {
+                    if (result.requiresAuth === true) {
+                        window.location.reload(true);
+                    } else {
+                        if (result !== undefined && result !== null && result.data !== undefined && result.data !== null) {
+                            var addressData = result.data;
+                            if (addressData.isAjaxError === "false") {
+                                $('#address-ui-widgets-enterAddressFormContainer').replaceWith(addressData.addressFormHTML);
+                                auiAlert("#address-ui-widgets-addr-form-switch-alert-box").hide();
+                                resetDropdownOnAjaxRequest();
+                                selectedCountry = country;
+                            } else {
+                                setErrorState(selectedCountry);
+                            }
+                        } else {
+                            setErrorState(selectedCountry);
+                        }
+                    }
+                },
+                error: function () {
+                    setErrorState(selectedCountry);
+                }
+            });
+        });
+    }
+});
+</script>
+      </span>
+    </form>
+</div></div>
+     <!--&&&Portal&Delimiter&&&--><!-- sp:end-feature:host-atf -->
+<!-- sp:feature:nav-btf -->
+<!-- btf pilu -->
+
+
+
+
+
+
+
+<style>
+  #nav-prime-tooltip{
+    padding: 0 20px 2px 20px;
+    background-color: white;
+    font-family: arial,sans-serif;
+  }
+  .nav-npt-text-title{
+    font-family: arial,sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 21px;
+    color: #E47923;
+  }
+  .nav-npt-text-detail, a.nav-npt-a{
+    font-family: arial,sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    color: #333333;
+    margin: 2px 0px;
+  }
+  a.nav-npt-a {
+    text-decoration: underline;
+  }
+</style>
+
+
+<div style="display: none">
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+<style type="text/css">
+
+
+
+#csr-hcb-wrapper {
+  display: none;
+}
+
+.bia-item .bia-action-button {
+  display: inline-block;
+  height: 22px;
+  margin-top: 3px;
+  padding: 0px;
+  overflow: hidden;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  color: #111;
+  font-family: Arial,sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 19px;
+  cursor: pointer;
+  outline: 0;
+  border: 1px solid;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  -moz-border-radius: 3px 3px 3px 3px;
+  border-radius: 3px 3px 3px 3px;
+  border-radius: 0\9;
+  border-color: #bcc1c8 #bababa #adb2bb;
+  background: #eff0f3;
+  background: -moz-linear-gradient(top, #f7f8fa, #e7e9ec);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f7f8fa), color-stop(100%, #e7e9ec));
+  background: -webkit-linear-gradient(top, #f7f8fa, #e7e9ec);
+  background: -o-linear-gradient(top, #f7f8fa, #e7e9ec);
+  background: -ms-linear-gradient(top, #f7f8fa, #e7e9ec);
+  background: linear-gradient(top, #f7f8fa, #e7e9ec);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7f8fa', endColorstr='#e7e9ec',GradientType=0);
+  *zoom: 1;
+  -webkit-box-shadow: inset 0 1px 0 0 #fff;
+  -moz-box-shadow: inset 0 1px 0 0 #fff;
+  box-shadow: inset 0 1px 0 0 #fff;
+  box-sizing: border-box;
+}
+
+/*related to defect found in YSH page in www.amazon.fr
+  font family was overriden causing button overflow on
+  that particular page.
+  Related SIM: https://issues.amazon.com/issues/P13N-CONSUMABLES-3104
+*/
+#bia-hcb-widget .a-button-text {
+    font-family: Arial,sans-serif !important;
+}
+
+/*This class was added to remove star ratings from
+   Shared Component's templates. Star ratings are
+   currently not configurable. This will work as an
+   immediate solution.
+   TODO: Work with shared components to make star
+   ratings configurable in their Shared View Templates
+*/
+#bia_content .a-icon-row {
+    display: none;
+}
+
+#bia-hcb-widget .a-icon-row {
+      display: none;
+}
+
+#bia_content {
+    width: 266px;
+}
+
+.nav-flyout-sidePanel {
+    width: 266px !important;
+}
+.aui-atc-button {
+    margin-top: 3px;
+    overflow: hidden;
+    color: #111;
+    font-family: Arial,sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: normal;
+}
+.bia-item .bia-action-button:hover {
+  border-color: #aeb4bd #adadad #9fa5af;
+  background: #e0e3e8;
+  background: -moz-linear-gradient(top, #e7eaf0, #d9dce1);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e7eaf0), color-stop(100%, #d9dce1));
+  background: -webkit-linear-gradient(top, #e7eaf0, #d9dce1);
+  background: -o-linear-gradient(top, #e7eaf0, #d9dce1);
+  background: -ms-linear-gradient(top, #e7eaf0, #d9dce1);
+  background: linear-gradient(top, #e7eaf0, #d9dce1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e7eaf0', endColorstr='#d9dce1',GradientType=0);
+  *zoom: 1;
+  -webkit-box-shadow: 0 1px 3px rgba(255, 255, 255, 0.6) inset;
+  -moz-box-shadow: 0 1px 3px rgba(255, 255, 255, 0.6) inset;
+  box-shadow: 0 1px 3px rgba(255, 255, 255, 0.6) inset;
+}
+
+.bia-item .bia-action-button:active {
+  background-color: #dcdfe3;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+}
+
+.bia-item .bia-action-button-disabled {
+  background: #f7f8fa;
+  color: #b7b7b7;
+  border-color: #e0e0e0;
+  box-shadow: none;
+  cursor: default;
+}
+
+.bia-item .bia-action-button-disabled:hover {
+  background: #f7f8fa;
+  color: #b7b7b7;
+  border-color: #e0e0e0;
+  box-shadow: none;
+  cursor: default;
+}
+
+.bia-action-button-inner {
+  border-bottom-color: #111111;
+  border-bottom-style: none;
+  border-bottom-width: 0px;
+  border-image-outset: 0px;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-width: 1;
+  border-left-color: #111111;
+  border-left-style: none;
+  border-left-width: 0px;
+  border-right-color: #111111;
+  border-right-style: none;
+  border-right-width: 0px;
+  border-top-color: #111111;
+  border-top-style: none;
+  border-top-width: 0px;
+  box-sizing: border-box;
+  display: block;
+  height: 20px;
+  line-height: 19px;
+  overflow: hidden;
+  position: relative;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+.bia-action-inner {
+  border: 0;
+  display: inline;
+  font-size: 11px;
+  height: auto;
+  line-height: 19px;
+  padding: 0px 4px 0px 4px;
+  text-align: center;
+  width: auto;
+  white-space: nowrap;
+}
+
+.csr-content {
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  width: 220px;
+  line-height: 19px;
+}
+
+.bia-header {
+  font-size: 16px;
+  color: #E47911;
+  padding-bottom: 10px;
+}
+
+.bia-header-widget {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.b2b-nav-header {
+  white-space: nowrap;
+  overflow: hidden;
+  margin-bottom: 18px;
+}
+
+.bia-space-right {
+  padding-right: 18px;
+  white-space: normal;
+  float: left;
+}
+
+.b2b-see-more-link a {
+  display: inline;
+  float: left;
+  margin-top: 3px;
+  margin-left: 3px;
+}
+
+.hcb-see-more-link a {
+  color: #333;
+  font-size: 13px;
+  text-decoration: none;
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+
+.bia-hcb-body {
+  overflow: hidden;
+}
+
+.bia-item {
+  width: 220px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.b2b-bia-item {
+  width: 299px;
+  display: inline-block;
+  margin-right: 18px;
+  margin-top: 18px;
+  vertical-align: top;
+}
+
+.bia-item-image {
+  float: left;
+  margin-right: 15px;
+  width: 75px;
+  height: 75px;
+}
+
+.b2b-bia-item-image {
+  float: left;
+  width: 90px;
+  height: 90px;
+  text-align: center;
+}
+
+.bia-image {
+  max-height: 75px;
+  max-width: 75px;
+  border: 0;
+}
+
+.b2b-bia-image {
+  max-height: 90px;
+  max-width: 90px;
+  border: 0;
+}
+
+.bia-item-data {
+  float: left;
+  width: 130px;
+}
+
+.b2b-bia-item-data {
+  float: left;
+  margin-left: 22px;
+  width: 187px;
+}
+
+.bia-title {
+  line-height: 19px;
+  font-size: 13px;
+  max-height: 60px;
+  overflow: hidden;
+}
+
+.bia-link:link {
+  text-decoration: none;
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+
+.bia-link:visited {
+  text-decoration: none;
+  color: #004B91;
+}
+
+.bia-price-nav {
+  margin-top: -4px;
+  color: #800;
+  font-size: 12px;
+  vertical-align: bottom;
+}
+
+.bia-price-yorr {
+    margin-top: -8px;
+    color: #800;
+    font-size: 12px;
+    vertical-align: bottom;
+}
+
+.bia-price {
+  color: #800;
+  font-size: 12px;
+  vertical-align: bottom;
+}
+
+.b2b-bia-price {
+  color: #800;
+  font-size: 13px;
+  vertical-align: bottom;
+}
+
+.bia-vpc-t1{
+  color: #008a00;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.bia-vpc-t2{
+  color: #008a00;
+  font-size: 12px;
+}
+
+.bia-vpc-t3{
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.bia-vpc-t3-badge{
+  color: #ffffff;
+  background-color: #e47911;
+  font-weight: normal;
+
+}
+
+.bia-vpc-t3-badge::before{
+  border-bottom: 10px solid #e47911;
+}
+
+.bia-vpc-t3-badge:after{
+  border-top: 10px solid #e47911;
+}
+
+.bia-ppu {
+  color: #800;
+  font-size: 10px;
+}
+
+.bia-prime-badge {
+  border: 0;
+  vertical-align: middle;
+}
+
+.bia-cart-action {
+  display: none;
+}
+
+.bia-cart-msg {
+  display: block;
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  line-height: 19px;
+}
+
+.bia-cart-icon {
+  background-image:
+      url("https://images-na.ssl-images-amazon.com/images/G/30/Recommendations/MissionExperience/BIA/bia-atc-confirm-icon.jpg");
+  display: inline-block;
+  width: 14px;
+  height: 13px;
+  top: 3px;
+  line-height: 19px;
+  position: relative;
+  vertical-align: top;
+}
+
+.bia-cart-success {
+  color: #090!important;
+  display: inline-block;
+  margin: 0;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: bold;
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+
+.bia-cart-title {
+  margin-bottom: 3px;
+}
+
+.bia-cart-form {
+  margin: 0px;
+}
+
+.b2b-bia-cart-form {
+  margin: 3px;
+}
+
+.bia-inline-cart-form {
+  margin: 0px;
+}
+
+.bia-cart-submit {
+  cursor: inherit;
+  left: 0;
+  top: 0;
+  line-height: 19px;
+  height: 100%;
+  width: 100%;
+  padding: 1px 6px 1px 6px;
+  position: absolute;
+  opacity: 0.01;
+  overflow: visible;
+  filter: alpha(opacity=1);
+  z-index: 20;
+}
+
+.bia-link-caret {
+  color: #e47911;
+}
+
+</style>
+
+
+
+
+<script type="text/javascript">
+(function ($Nav) {
+"use strict";
+
+if (typeof $Nav === 'undefined' || $Nav === null || typeof $Nav.when !== 'function') {
+    return;
+}
+$Nav.when('$', 'data', 'flyout.yourAccount', 'sidepanel.csYourAccount',
+          'config')
+    .run("BuyitAgain-YourAccount-SidePanel", 
+    function ($, data, yaFlyout, csYourAccount, config) {
+        if (config.disableBuyItAgain) {
+          return;
+        }
+        var render = function (data) {
+            if (data.status) {
+                var widgetHtml = data.widgetBegin + 
+                                 data.faceouts.join('') +
+                                 data.widgetEnd;
+                navbar.sidePanel({
+                    flyoutName: 'yourAccount',
+                    data: {html: widgetHtml}
+                });
+            }
+        };
+
+        var renderBuyItAgain = function (biaData) {
+            if (csYourAccount) {
+                csYourAccount.register(render, biaData);
+            } else {
+                render(biaData);
+            }
+        };
+
+        yaFlyout.sidePanel.onData(function() {
+            enableInlineAddToCart($); 
+            enableImpressionLogging($);
+
+            P.when('A','p13n-sc-static-list').execute(function(A, scList) {
+                var navContainer = A.$("#bia-hcb-widget");
+                var navList = navContainer.find('.p13n-sc-static-list');
+                A.$(navList).bind('truncateList', function() {
+                        scList(navList);
+                });
+
+                A.$(navList).trigger('truncateList');
+            });
+
+            if (window.P) {
+                P.when('A', 'a-truncate').execute(function(A, truncate) {
+                    var truncateElements = A.$('.a-truncate');
+                    A.each(truncateElements, function(element) {
+                        truncate.get(element).update();
+                    });
+                });
+            }
+
+        }); 
+           
+    yaFlyout.onRender(function() {
+            $.ajax({
+                url: '/gp/bia/external/bia-hcb-ajax-handler.html',
+                data: 
+
+   {"biaHcbRid":"Y6VZT9HP6SSNF6RD7PAW"},
+                dataType: 'json',
+                timeout: 4*1000,
+                success: renderBuyItAgain,
+                error: function (jqXHR, textStatus, errorThrown) {
+                }
+            });
+        });
+
+
+    var updateNavCartQty = function(qty) {
+        if (typeof window.navbar === 'object' && typeof window.navbar.setCartCount === 'function') {
+            window.navbar.setCartCount(qty);
+        }
+    };
+
+    var addToCart = function(params, callback) {
+        $.ajax({
+           url: '/gp/bia/external/bia-cart-ajax-handler.html',
+           data: params,
+           dataType: 'json', 
+           timeout: 2000,
+           success: function(response) { callback(response); },
+           error: function() { callback({ok:0}); }
+        });
+    };
+
+    var enableInlineAddToCart = function ($) {
+        if ($(".bia-inline-cart-form").length === 0) {
+            return;
+        }
+
+        var inlineAddToCartHandler = function(e) {
+            e.preventDefault();
+
+            var $target = $(e.target);
+            var $item = $target.parents(".bia-item");
+            var $submit = $item.find(".bia-cart-submit");
+            var params = $target.attr('data-order');
+
+            $submit.attr("disabled", true);
+            $item.find(".bia-action-button").addClass("bia-action-button-disabled");
+
+            addToCart(params, 
+                function(response) {
+                    if(response && response.ok && response.ok === '1') {
+                        $item.find(".bia-faceout").hide();
+                        $item.find(".bia-cart-action").show();
+                        updateNavCartQty(response.numActiveItemsInCart); 
+                        //TODO: add metric
+                    } else {
+                        $target.unbind("submit", inlineAddToCartHandler);
+                        $submit.attr("disabled", false);
+                        $submit.click();
+                        //TODO: add metric
+                    }
+                }
+            );
+        };
+
+        $(".bia-inline-cart-form").bind("submit", inlineAddToCartHandler);
+    };
+
+    var enableImpressionLogging = function ($) {
+
+        var registerToLog = function (p13nLogger, callOnVisible) {
+            var featureEl = $("#bia-hcb-widget");
+            callOnVisible.register(featureEl, function () {
+                p13nLogger.logAction({
+                                action: 'view', 
+                                featureElement: featureEl, 
+                                replicateAsinImpressions: true
+                              });
+            });
+        };
+        
+        AmazonUIPageJS.when('p13n-sc-logger', 'p13n-sc-call-on-visible')
+            .execute(function(p13nLogger, callOnVisible) {
+                    registerToLog(p13nLogger, callOnVisible);});
+    };
+
+    });
+
+})(window.$Nav);
+//# sourceURL=bia-hcb-js.mi
+</script>
+
+
+
+
+
+
+
+
+<div style="display: none">
+  <div id="nav-prime-menu" class="nav-empty nav-flyout-content nav-ajax-prime-menu">
+    <div class="nav_dynamic"></div>
+    <div class="nav-ajax-message"></div>
+    <div class="nav-ajax-error-msg">
+      <p class="nav_p nav-bold">Hay un problema para cargar este menú.</p>
+      <p class="nav_p"><a href="/gp/prime/ref=nav_prime_ajax_err" class="nav_a">Más información sobre Amazon Prime.</a></p>
+    </div>
+  </div>
+</div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+  window.$Nav && $Nav.when("data").run(function(data) { data({"yourAccountContent":{"template":{"name":"itemList","data":{"items":[{"text":"Mi cuenta","url":"/gp/css/homepage.html?ie=UTF8&ref_=nav_youraccount_ya"},{"text":"Mis pedidos","url":"/gp/css/order-history?ie=UTF8&ref_=nav_youraccount_orders","id":"nav_prefetch_yourorders"},{"text":"Mis Dash Buttons","url":"/ddb/your-dash-buttons?_encoding=UTF8&ref_=nav_youraccount_nav_youraccount_snk_ddb_ydb_d_nav_ya"},{"text":"Mi Lista de deseos","url":"/gp/registry/wishlist?ie=UTF8&ref_=nav_youraccount_wl&requiresSignIn=1"},{"text":"Mis recomendaciones","url":"/gp/yourstore?ie=UTF8&ref_=nav_youraccount_recs"},{"text":"Mis mascotas","url":"/yourpets?_encoding=UTF8&ref_=nav_youraccount_ya_pp"},{"text":"Pertenencia a programas y suscripciones","url":"/hz5/yourmembershipsandsubscriptions?_encoding=UTF8&ref_=nav_youraccount_digital_subscriptions"},{"text":"Mi suscripción a Amazon Prime","url":"/gp/primecentral?ie=UTF8&ref_=nav_youraccount_prime"},{"text":"Mis suscripciones a productos","url":"/gp/subscribe-and-save/manage?ie=UTF8&ref_=nav_youraccount_sns"},{"text":"Hazte una cuenta Amazon Business","url":"/b?ie=UTF8&node=14862331031&ref_=nav_youraccount_esb2b_reg"},{"text":"Gestionar contenido y dispositivos","url":"/gp/digital/fiona/manage?ie=UTF8&ref_=nav_youraccount_myk","dividerBefore":"1"},{"text":"Mi Kindle Unlimited","url":"/gp/kindle/ku/ku_central?ie=UTF8&ref_=nav_youraccount_ku"},{"subtext":"Anteriormente Cloud Player","text":"Mi Biblioteca musical","url":"/gp/dmusic/mp3/player?ie=UTF8&ref_=nav_youraccount_cldplyr"},{"text":"Mi Prime Video","url":"/gp/video/ssoredirect?ie=UTF8&pvp=%2Fref%253Ddvm_crs_gno_es_xs_s_dk_nav_eg_al_yracc_0_u&ref_=nav_youraccount_dvm_crs_gno_es_xs_s_dk_nav_eg_al_yracc_0_u"},{"subtext":"5 GB de almacenamiento gratis","text":"Mi Amazon Drive","url":"/clouddrive?_encoding=UTF8&ref_=nav_youraccount_clddrv"},{"text":"Mis Apps y dispositivos","url":"/gp/mas/your-account/myapps?ie=UTF8&ref_=nav_youraccount_aad"},{"dividerBefore":"1"},{"text":"Cambiar de cuenta","url":"/gp/navigation/redirector.html/ref=sign-in-redirect?ie=UTF8&associationHandle=esflex&currentPageURL=https%3A%2F%2Fwww.amazon.es%2Fgp%2Fyourstore%2Fhome%3Fie%3DUTF8%26ref_%3Dnav_youraccount_switchacct&pageType=&switchAccount=picker&yshURL=https%3A%2F%2Fwww.amazon.es%2Fgp%2Fyourstore%2Fhome%3Fie%3DUTF8%26ref_%3Dnav_youraccount_switchacct","id":"nav-item-switch-account"},{"text":"Cerrar sesión","url":"/gp/flex/sign-out.html?ie=UTF8&action=sign-out&path=%2Fgp%2Fyourstore%2Fhome&ref_=nav_youraccount_signout&signIn=1&useRedirectOnSuccess=1","id":"nav-item-signout"}]}},"url":"/gp/css/homepage.html?ie=UTF8&ref_=flyout_ya_header","wlTriggers":"85042"},"wishlistContent":{"template":{"name":"itemList","data":{"items":[{"text":"Crear una lista de deseos","url":"/gp/registry/wishlist?ie=UTF8&ref_=nav_wishlist_gno_createwl&triggerElementID=createList"},{"subtext":"Añade productos de cualquier<br />página web a tu Lista de deseos","text":"Lista de deseos universal","url":"/gp/BIT?ie=UTF8&ref_=nav_wishlist_bit_v2_a0024"},{"text":"Lista de bodas","url":"/wedding/home?_encoding=UTF8&ref_=nav_wishlist_gno_listpop_wr"},{"text":"Lista de Nacimiento","url":"/baby-reg/homepage?_encoding=UTF8&ref_=nav_wishlist_gno_listpop_br"},{"subtext":"Una forma segura y divertida para que los niños creen su propia lista de deseos","text":"Amazon Kids","url":"/kids/?_encoding=UTF8&ref_=nav_wishlist_gno_listpop_ak"},{"text":"Descubre tu estilo","url":"/discover?_encoding=UTF8&ref_=nav_wishlist_sbl"},{"text":"Explorar Showroom","url":"/showroom?_encoding=UTF8&ref_=nav_wishlist_srm_your_desk_wl_es"}]}},"url":"/gp/registry/wishlist?ie=UTF8&ref_=flyout_yl_header"},"cartContent":{"html":"<div id='nav-cart-flyout' class='nav-empty nav-flyout-content' data-one='' data-many=''><div class='nav-dynamic-full'><div id='nav-cart-standard' class='nav-cart-content'><a href='/gp/cart/view.html/ref=nav_flyout_viewcart?ie=UTF8&amp;hasWorkingJavascript=1' class='nav-cart-title'></a><div class='nav-cart-subtitle'></div><div class='nav-cart-items'></div></div><div id='nav-cart-pantry' class='nav-cart-content' data-box='' data-boxes='' data-box-filled='' data-boxes-filled=''><a href='/gp/cart/view.html/ref=nav_flyout_viewcart?ie=UTF8&amp;hasWorkingJavascript=1' class='nav-cart-title'></a><div class='nav-cart-subtitle'></div><div class='nav-cart-items'></div></div><div id='nav-cart-fresh' class='nav-cart-content'><a href='/gp/cart/view.html/ref=nav_flyout_viewcart?ie=UTF8&amp;hasWorkingJavascript=1' class='nav-cart-title'><img id='nav-cart-fresh-logo' src='https://images-na.ssl-images-amazon.com/images/G/30/gno/ec-logo-fresh-color.jpg'></a><div class='nav-cart-subtitle'></div><div class='nav-cart-items'></div></div></div><div class='nav-ajax-message'></div><div class='nav-dynamic-empty'><p class='nav_p nav-bold nav-cart-empty'> Tu cesta está vacía.</p><p class='nav_p '> Haz que tu cesta sea útil: llénala de libros, DVD, productos electrónicos y mucho más.</p></div><div class='nav-ajax-error-msg'><p class='nav_p nav-bold'> Hay un problema para ver una vista previa de tu carro de la compra en este momento.</p><p class='nav_p '> Comprueba la conexión a Internet y <a href='/gp/cart/view.html/ref=nav_flyout_viewcart?ie=UTF8&hasWorkingJavascript=1' class='nav_a'>ve a tu carro</a>, o <a href='javascript:void(0);' class='nav_a nav-try-again'>vuelve a intentarlo</a>.</p></div><div id='nav-cart-footer'><a href='/gp/cart/view.html/ref=nav_flyout_viewcart?ie=UTF8&amp;hasWorkingJavascript=1' id='nav-cart-menu-button' class='nav-action-button'><span class='nav-action-inner'>Ver cesta<span id='nav-cart-menu-button-count' ><span id='nav-cart-zero'>(<span class='nav-cart-count'>0</span> productos)</span><span id='nav-cart-one' style='display: none;'>(<span class='nav-cart-count'>0</span> producto)</span><span id='nav-cart-many' style='display: none;'>(<span class='nav-cart-count'>0</span> productos)</span></span></span></a></div></div>"},"signinContent":{"html":"<div id='nav-signin-tooltip'><a href='/gp/navigation/redirector.html/ref=sign-in-redirect?ie=UTF8&amp;associationHandle=esflex&amp;currentPageURL=https%3A%2F%2Fwww.amazon.es%2Fgp%2Fyourstore%2Fhome%3Fie%3DUTF8%26ref_%3Dnav_custrec_signin&amp;pageType=&amp;switchAccount=&amp;yshURL=https%3A%2F%2Fwww.amazon.es%2Fgp%2Fyourstore%2Fhome%3Fie%3DUTF8%26ref_%3Dnav_custrec_signin' class='nav-action-button' data-nav-role='signin' data-nav-ref='nav_custrec_signin'><span class='nav-action-inner'>Identificarse</span></a><div class='nav-signin-tooltip-footer'>¿Eres un cliente nuevo? <a href='https://www.amazon.es/ap/register?_encoding=UTF8&amp;openid.assoc_handle=esflex&amp;openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.mode=checkid_setup&amp;openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&amp;openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&amp;openid.pape.max_auth_age=0&amp;openid.return_to=https%3A%2F%2Fwww.amazon.es%2Fgp%2Fyourstore%2Fhome%3Fie%3DUTF8%26ref_%3Dnav_custrec_newcust' class='nav-a'>Empieza aquí.</a></div></div>"},"accountListContent":{"html":"<div id='nav-al-container'><div id='nav-al-wishlist' class='nav-al-column nav-tpl-itemList'><div class='nav-title' id='nav-al-title'>Mis listas</div><a href='/gp/registry/wishlist?ie=UTF8&amp;ref_=nav_wishlist_gno_createwl&amp;triggerElementID=createList' class='nav-link nav-item'><span class='nav-text'>Crear una lista de deseos</span></a><a href='/gp/BIT?ie=UTF8&amp;ref_=nav_wishlist_bit_v2_a0024' class='nav-link nav-item'><span class='nav-text'>Lista de deseos universal</span></a><a href='/wedding/home?_encoding=UTF8&amp;ref_=nav_wishlist_gno_listpop_wr' class='nav-link nav-item'><span class='nav-text'>Lista de bodas</span></a><a href='/baby-reg/homepage?_encoding=UTF8&amp;ref_=nav_wishlist_gno_listpop_br' class='nav-link nav-item'><span class='nav-text'>Lista de Nacimiento</span></a><a href='/kids/?_encoding=UTF8&amp;ref_=nav_wishlist_gno_listpop_ak' class='nav-link nav-item'><span class='nav-text'>Amazon Kids</span></a><a href='/discover?_encoding=UTF8&amp;ref_=nav_wishlist_sbl' class='nav-link nav-item'><span class='nav-text'>Descubre tu estilo</span></a><a href='/showroom?_encoding=UTF8&amp;ref_=nav_wishlist_srm_your_desk_wl_es' class='nav-link nav-item'><span class='nav-text'>Explorar Showroom</span></a></div><div id='nav-al-your-account' class='nav-al-column nav-template nav-flyout-content nav-tpl-itemList'><div class='nav-title'>Mi cuenta</div><a href='/gp/css/homepage.html?ie=UTF8&amp;ref_=nav_youraccount_ya' class='nav-link nav-item'><span class='nav-text'>Mi cuenta</span></a><a href='/gp/css/order-history?ie=UTF8&amp;ref_=nav_youraccount_orders' class='nav-link nav-item' id='nav_prefetch_yourorders'><span class='nav-text'>Mis pedidos</span></a><a href='/ddb/your-dash-buttons?_encoding=UTF8&amp;ref_=nav_youraccount_nav_youraccount_snk_ddb_ydb_d_nav_ya' class='nav-link nav-item'><span class='nav-text'>Mis Dash Buttons</span></a><a href='/gp/registry/wishlist?ie=UTF8&amp;ref_=nav_youraccount_wl&amp;requiresSignIn=1' class='nav-link nav-item'><span class='nav-text'>Mi Lista de deseos</span></a><a href='/gp/yourstore?ie=UTF8&amp;ref_=nav_youraccount_recs' class='nav-link nav-item'><span class='nav-text'>Mis recomendaciones</span></a><a href='/yourpets?_encoding=UTF8&amp;ref_=nav_youraccount_ya_pp' class='nav-link nav-item'><span class='nav-text'>Mis mascotas</span></a><a href='/hz5/yourmembershipsandsubscriptions?_encoding=UTF8&amp;ref_=nav_youraccount_digital_subscriptions' class='nav-link nav-item'><span class='nav-text'>Pertenencia a programas y suscripciones</span></a><a href='/gp/primecentral?ie=UTF8&amp;ref_=nav_youraccount_prime' class='nav-link nav-item'><span class='nav-text'>Mi suscripción a Amazon Prime</span></a><a href='/gp/subscribe-and-save/manage?ie=UTF8&amp;ref_=nav_youraccount_sns' class='nav-link nav-item'><span class='nav-text'>Mis suscripciones a productos</span></a><a href='/b?ie=UTF8&amp;node=14862331031&amp;ref_=nav_youraccount_esb2b_reg' class='nav-link nav-item'><span class='nav-text'>Hazte una cuenta Amazon Business</span></a><div class='nav-divider'></div><a href='/gp/digital/fiona/manage?ie=UTF8&amp;ref_=nav_youraccount_myk' class='nav-link nav-item'><span class='nav-text'>Gestionar contenido y dispositivos</span></a><a href='/gp/kindle/ku/ku_central?ie=UTF8&amp;ref_=nav_youraccount_ku' class='nav-link nav-item'><span class='nav-text'>Mi Kindle Unlimited</span></a><a href='/gp/dmusic/mp3/player?ie=UTF8&amp;ref_=nav_youraccount_cldplyr' class='nav-link nav-item'><span class='nav-text'>Mi Biblioteca musical</span></a><a href='/gp/video/ssoredirect?ie=UTF8&amp;pvp=%2Fref%253Ddvm_crs_gno_es_xs_s_dk_nav_eg_al_yracc_0_u&amp;ref_=nav_youraccount_dvm_crs_gno_es_xs_s_dk_nav_eg_al_yracc_0_u' class='nav-link nav-item'><span class='nav-text'>Mi Prime Video</span></a><a href='/clouddrive?_encoding=UTF8&amp;ref_=nav_youraccount_clddrv' class='nav-link nav-item'><span class='nav-text'>Mi Amazon Drive</span></a><a href='/gp/mas/your-account/myapps?ie=UTF8&amp;ref_=nav_youraccount_aad' class='nav-link nav-item'><span class='nav-text'>Mis Apps y dispositivos</span></a><div class='nav-divider'></div><a class='nav-link nav-item'><span class='nav-text'></span></a><a href='/gp/navigation/redirector.html/ref=sign-in-redirect?ie=UTF8&amp;associationHandle=esflex&amp;currentPageURL=https%3A%2F%2Fwww.amazon.es%2Fgp%2Fyourstore%2Fhome%3Fie%3DUTF8%26ref_%3Dnav_youraccount_switchacct&amp;pageType=&amp;switchAccount=picker&amp;yshURL=https%3A%2F%2Fwww.amazon.es%2Fgp%2Fyourstore%2Fhome%3Fie%3DUTF8%26ref_%3Dnav_youraccount_switchacct' class='nav-link nav-item' id='nav-item-switch-account'><span class='nav-text'>Cambiar de cuenta</span></a><a href='/gp/flex/sign-out.html?ie=UTF8&amp;action=sign-out&amp;path=%2Fgp%2Fyourstore%2Fhome&amp;ref_=nav_youraccount_signout&amp;signIn=1&amp;useRedirectOnSuccess=1' class='nav-link nav-item' id='nav-item-signout'><span class='nav-text'>Cerrar sesión</span></a></div></div>"},"templates":{"asin-promo":"<a href='<#=destination #>' class='nav_asin_promo'>  <img src='<#=image #>' class='nav_asin_promo_img'/>  <span class='nav_asin_promo_headline'><#=headline #></span>  <span class='nav_asin_promo_info'>    <span class='nav_asin_promo_title'><#=productTitle #></span>    <span class='nav_asin_promo_title2'><#=productTitle2 #></span>    <span class='nav_asin_promo_price'><#=price #></span>  </span>  <span class='nav_asin_promo_button nav-sprite'><#=button #></span></a>","discoveryPanelList":"<# var renderItems = function(items) { #>    <span class='nav-dp-title nav-item'>    Deliveries at a glance    <div class='nav-divider-container'><div class='nav-divider'></div></div></span>    <# jQuery.each(items, function (i, item) { #>        <span class='nav-item'>            <a href='<#=item.order_link#>' class='nav-dp-link'>                <span class='nav-dp-left-column'>                    <img src='<#=item.image#>' class='nav-dp-image'/>                </span>                <span class='nav-dp-right-column'>                    <span class='nav-dp-text <#=item.status#>'>                        <#=item.status_text#>                        <br/>                    </span>                    <# if(item.secondary_status_text) { #>                        <span class='nav-dp-text-secondary <#=item.status#>'>                            <#=item.secondary_status_text#>                        </span>                    <# } #>                </span>            </a>            <div class='nav-divider-container'><div class='nav-divider'></div></div>        </span>  <# }); #>  <a href='/your-orders/ref=nav_dp_ayo' class='nav-dp-link-emphasis'>      View all orders  </a><# }; #><# renderItems(items); #>","itemList":"<# var hasColumns = (function () {  var checkColumns = function (_items) {    if (!_items) {      return false;    }    for (var i=0; i<_items.length; i++) {      if (_items[i].columnBreak || (_items[i].items && checkColumns(_items[i].items))) {        return true;      }    }    return false;  };  return checkColumns(items);}()); #><# if(hasColumns) { #>  <# if(items[0].image && items[0].image.src) { #>    <div class='nav-column nav-column-first nav-column-image'>  <# } else if (items[0].greeting) { #>    <div class='nav-column nav-column-first nav-column-greeting'>  <# } else { #>    <div class='nav-column nav-column-first'>  <# } #><# } #><# var renderItems = function(items) { #>  <# jQuery.each(items, function (i, item) { #>    <# if(hasColumns && item.columnBreak) { #>      <# if(item.image && item.image.src) { #>        </div><div class='nav-column nav-column-notfirst nav-column-break nav-column-image'>      <# } else if (item.greeting) { #>        </div><div class='nav-column nav-column-notfirst nav-column-break nav-column-greeting'>      <# } else { #>        </div><div class='nav-column nav-column-notfirst nav-column-break'>      <# } #>    <# } #>    <# if(item.dividerBefore) { #>      <div class='nav-divider'></div>    <# } #>    <# if(item.text || item.content) { #>      <# if(item.url) { #>        <a href='<#=item.url #>' class='nav-link      <# } else {#>        <span class='      <# } #>      <# if(item.panelKey) { #>        nav-hasPanel      <# } #>      <# if(item.items) { #>        nav-title      <# } #>      <# if(item.decorate == 'carat') { #>        nav-carat      <# } #>      <# if(item.decorate == 'nav-action-button') { #>        nav-action-button      <# } #>      nav-item'      <# if(item.extra) { #>        <#=item.extra #>      <# } #>      <# if(item.id) { #>        id='<#=item.id #>'      <# } #>      <# if(item.dataNavRole) { #>        data-nav-role='<#=item.dataNavRole #>'      <# } #>      <# if(item.dataNavRef) { #>        data-nav-ref='<#=item.dataNavRef #>'      <# } #>      <# if(item.panelKey) { #>        data-nav-panelkey='<#=item.panelKey #>'        role='navigation'        aria-label='<#=item.text#>'      <# } #>      <# if(item.subtextKey) { #>        data-nav-subtextkey='<#=item.subtextKey #>'      <# } #>      <# if(item.image && item.image.height > 16) { #>        style='line-height:<#=item.image.height #>px;'      <# } #>      >      <# if(item.decorate == 'carat') { #>        <i class='nav-icon'></i>      <# } #>      <# if(item.image && item.image.src) { #>        <img class='nav-image' src='<#=item.image.src #>' style='height:<#=item.image.height #>px; width:<#=item.image.width #>px;' />      <# } #>      <# if(item.text) { #>        <span class='nav-text<# if(item.classname) { #> <#=item.classname #><# } #>'><#=item.text#><# if(item.badgeText) { #>          <span class='nav-badge'><#=item.badgeText#></span>        <# } #></span>      <# } else if (item.content) { #>        <span class='nav-content'><# jQuery.each(item.content, function (j, cItem) { #><# if(cItem.url && cItem.text) { #><a href='<#=cItem.url #>' class='nav-a'><#=cItem.text #></a><# } else if (cItem.text) { #><#=cItem.text#><# } #><# }); #></span>      <# } #>      <# if(item.subtext) { #>        <span class='nav-subtext'><#=item.subtext #></span>      <# } #>      <# if(item.url) { #>        </a>      <# } else {#>        </span>      <# } #>    <# } #>    <# if(item.image && item.image.src) { #>      <# if(item.url) { #>        <a href='<#=item.url #>'>       <# } #>      <img class='nav-image'      <# if(item.id) { #>        id='<#=item.id #>'      <# } #>      src='<#=item.image.src #>' <# if (item.alt) { #> alt='<#= item.alt #>'<# } #>/>      <# if(item.url) { #>        </a>       <# } #>    <# } #>    <# if(item.items) { #>      <div class='nav-panel'> <# renderItems(item.items); #> </div>    <# } #>  <# }); #><# }; #><# renderItems(items); #><# if(hasColumns) { #>  </div><# } #>","notificationsList":"<div class='nav-item nav-title'>  </div><# jQuery.each(items || [], function (i, item) { #>  <div class='nav-item<# if (item.type) { #> nav-noti-list-<#= item.type #><# } #><# if (item.image && item.image.src) { #> nav-noti-list-with-image<# } #>'>    <# if (item.dismissId) { #>      <div class='nav-noti-list-x' data-noti-id='<#= item.dismissId #>'>&times;</div>    <# } #>    <# if (item.image && item.image.src) { #>      <div class='nav-noti-list-image'>        <img class='nav-noti-list-image-tag' src='<#= item.image.src #>' <# if (item.image.alt) { #> alt='<#= item.image.alt #>'<# } #> <# if (item.image.title) { #> title='<#= item.image.title #>'<# } #>/>      </div>    <# } #>    <# if (item.heading) { #>      <div class='nav-noti-list-heading'><#= item.heading #></div>    <# } #>    <# jQuery.each(item.content || [], function (j, itemContent) { #>      <# if (itemContent.url) { #>        <a href='<#= itemContent.url #>' class='nav-noti-list-content'>      <# } else { #>        <div class='nav-noti-list-content'>      <# } #>        <# if (itemContent.text) { #>          <span class='nav-noti-list-text'><#= itemContent.text #></span>        <# } #>        <# if (itemContent.subtext) { #>          <span class='nav-noti-list-subtext'><#= itemContent.subtext #></span>        <# } #>      <# if (itemContent.url) { #>        </a>      <# } else { #>        </div>      <# } #>    <# }); #>  </div><# }); #>","discoveryPanelSummary":"    <span class='nav-dp-title nav-item'>    Deliveries at a glance    <div class='nav-divider-container'><div class='nav-divider'></div></div></span>    <# jQuery.each(items || [], function (i, item) { #>        <span class='nav-item'>            <span class='nav-dp-left-column'>                <img src='<#=item.image.url#>' class='nav-dp-image' height='<#=item.image.height#>'/>            </span>            <span class='nav-dp-right-column'>                <#=item.status_text#>                <div class='nav-dp-secondary-row'>                    <a href='/your-orders/ref=nav_dp_ryo' class='nav-dp-link-emphasis'>                        Sign in to view orders                    </a>                </div>            </span>        </span>    <# }); #>","htmlList":"  <# jQuery.each(items, function (i, item) { #>    <div class='nav-item'>      <#=item #>    </div>  <# }); #>","subnav":"<# if (obj && obj.type === 'vertical') { #>  <# jQuery.each(obj.rows, function (i, row) { #>    <# if (row.flyoutElement === 'button') { #>      <div class='nav_sv_fo_v_button'        <# if (row.elementStyle) { #>          style='<#= row.elementStyle #>'        <# } #>      >        <a href='<#=row.url #>' class='nav-action-button nav-sprite'>          <#=row.text #>        </a>      </div>    <# } else if (row.flyoutElement === 'list' && row.list) { #>      <# jQuery.each(row.list, function (j, list) { #>        <div class='nav_sv_fo_v_column <#=(j === 0) ? 'nav_sv_fo_v_first' : '' #>'>          <ul class='<#=list.elementClass #>'>          <# jQuery.each(list.linkList, function (k, link) { #>            <# if (k === 0) { link.elementClass += ' nav_sv_fo_v_first'; } #>            <li class='<#=link.elementClass #>'>              <# if (link.url) { #>                <a href='<#=link.url #>' class='nav_a'><#=link.text #></a>              <# } else { #>                <span class='nav_sv_fo_v_span'><#=link.text #></span>              <# } #>            </li>          <# }); #>          </ul>        </div>      <# }); #>    <# } else if (row.flyoutElement === 'link') { #>      <# if (row.topSpacer) { #>        <div class='nav_sv_fo_v_clear'></div>      <# } #>      <div class='<#=row.elementClass #>'>        <a href='<#=row.url #>' class='nav_sv_fo_v_lmargin nav_a'>          <#=row.text #>        </a>      </div>    <# } #>  <# }); #><# } else if (obj) { #>  <div class='nav_sv_fo_scheduled'>    <#= obj #>  </div><# } #>","wishlist":"<# jQuery.each(wishlist, function (i, item) { #>  <li class='nav_pop_li'>    <a href='<#=item.url #>' class='nav_a'>      <#=item.name #>    </a>    <div class='nav_tag'>      <!-- TODO this logic should now be in dynamic-wish-list.mi -->      <# if(typeof item.count !='undefined') { #>        <#=          (item.count == 1 ? '{count} producto' : '{count} productos')            .replace('{count}', item.count)        #>      <# } #>    </div>  </li><# }); #>","cart":"<# jQuery.each(items, function (i, item) { #>  <div class='nav-cart-item'>    <a href='<#=item.url #>' class='nav-cart-item-link'>      <img src='<#=item.img #>' class='nav-cart-item-image' />      <span class='nav-cart-item-title'><#=item.name #></span>      <# if (item.weight) { #>        <span class='nav-cart-item-weight' style='display:none;'>          <#= ''.replace('{value}', item.weight.value).replace('{unit}', item.weight.unit) #>        </span>      <# } #>      <# if (item.ourPrice) { #>        <span class='nav-cart-item-buyingPrice'><#=item.ourPrice #></span>      <# } #>      <# if (item.scarcityMessage) { #>        <span class='<#=item.scarcityClass #>'><#=item.scarcityMessage #></span>      <# } #>      <span class='nav-cart-item-quantity'>        <#= 'Cantidad: {count}'.replace('{count}', item.qty) #>      </span>    </a>  </div>  <# if (i%2==1) { #>    <div class='nav-cart-item-break'></div>  <# } #><# }); #><div class='nav-cart-item-break'></div>"}}); });
+</script>
+
+  <script type="text/javascript">
+      window.$Nav && $Nav.declare('config.prefetchUrls', ["https://images-na.ssl-images-amazon.com/images/G/01/authportal/common/images/amznbtn-sprite03._CB485966112_.png","https://images-na.ssl-images-amazon.com/images/G/30/authportal/common/images/amazon_logo_no-org_mid._CB485934514_.png","https://images-na.ssl-images-amazon.com/images/G/30/authportal/flex/reduced-nav/ap-flex-reduced-nav-2.0._CB485968672_.js","https://images-na.ssl-images-amazon.com/images/G/30/authportal/flex/reduced-nav/ap-flex-reduced-nav-2.1._CB485967463_.css","https://images-na.ssl-images-amazon.com/images/G/30/gno/sprites/nav-sprite-global_bluebeacon-1x_optimized_layout1._CB468502164_.png","https://images-na.ssl-images-amazon.com/images/G/30/x-locale/common/buttons/sign-in-secure._CB485934965_.gif","https://images-na.ssl-images-amazon.com/images/G/30/x-locale/common/login/fwcim._CB481732242_.js","https://images-na.ssl-images-amazon.com/images/G/30/x-locale/common/transparent-pixel._CB485935036_.gif"]);
+window.$Nav && $Nav.declare('config.prefetch',function() {
+    var pUrls = window.$Nav.getNow('config.prefetchUrls');
+    (window.AmazonUIPageJS ? AmazonUIPageJS : P).when('A').execute(function (A) { A.preload(pUrls); });
+});
+
+  /*  */
+  
+(window.AmazonUIPageJS ? AmazonUIPageJS : P).when('A').execute(function(A){
+  if(A.preload){
+    A.preload('https://images-na.ssl-images-amazon.com/images/I/41%2BsmK2QugL._RC|71rAxcIq9bL.js,61zDhB2U0aL.js,41W9ohA0e+L.js,11vrNkbdcvL.js,21qaguVEGfL.js,41IJLxrFPHL.js,51MzEF-M1PL.js,313jWehHlpL.js_.js?AUIClients/AmazonNavigationDesktopMetaAsset#desktop');
+    A.preload('https://images-na.ssl-images-amazon.com/images/I/21rQMjhzuzL._RC|71GH-wDgErL.css,21TJB5pc5TL.css,31DAr4NkZQL.css,21lRUdwotiL.css,41tc24mJIGL.css,11G4HxMtMSL.css,31OvHRW+XiL.css,01XHMOHpK1L.css_.css?AUIClients/AmazonNavigationDesktopMetaAsset#desktop');
+  }
+});
+
+
+
+
+    window.$Nav && $Nav.declare('config.flyoutURL', null);
+    window.$Nav && $Nav.declare('btf.lite');
+    window.$Nav && $Nav.declare('btf.full');
+    window.$Nav && $Nav.declare('btf.exists');
+    (window.AmazonUIPageJS ? AmazonUIPageJS : P).register('navCF');
+  </script>
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    <link rel="stylesheet" type="text/css" href="https://images-na.ssl-images-amazon.com/images/G/30/x-locale/redirect-overlay/redirect-overlay-nav-https-20200115._CB422996797_.css">
+    <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="https://images-na.ssl-images-amazon.com/images/G/30/x-locale/redirect-overlay/redirect-overlay-lte-ie9.css"><![endif]-->
+
+
+<script type="text/javascript">
+    window.$Nav && $Nav.when('$').run('MXMarketplaceRedirectOverlay',function($) {
+        $.ajax({
+            type: 'POST',
+            url: '/gp/redirection/mexico.html',
+            data: {
+                path: '/a/addresses/add',
+                queryString: '?ie=UTF8\u0026ref=ya%5Faddress%5Fbook%5Fadd%5Fbutton',
+                pageType: 'YourAccountAddressBook',
+                referer: 'https://www.amazon.es/a/addresses/add?ref=ya_address_book_add_button'
+            },
+            success: function(data) {
+                if (data) {
+                    $('body').append(data);
+                }
+            }
+        });
+    });
+</script>
+
+    
+    
+    <!-- btf tilu -->
+
+
+<!-- sp:feature:host-btf -->
+
+
+</div>

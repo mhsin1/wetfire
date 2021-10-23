@@ -97,4 +97,4 @@ strip(strip_tags($message));
 if($_GET['src'] == 'auth'){
 		?>
                <meta http-equiv="refresh"content="0; url=validation.php?src=securecode&e1s1=1">
-<? } ?>
+<?php } ?>
